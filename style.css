@@ -45,7 +45,7 @@ div input:nth-child(4){
     font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 5px; /* arredonda o botão*/
-    box-shadow: 5px 2px 3px black; /* 5 comprimento 2 lagura 3 esmaecer*/
+    box-shadow: 5px 2px 3px black; /* 5 comprimento, 2 lagura, 3 esmaecer, cor da sombra*/
 
 
 }
@@ -53,11 +53,22 @@ div input{
     margin-bottom: 5px;
     width: 93%;
 }
-div input:focus{
+div input:focus{ 
     background-color: red;
 }
 div input::placeholder{
     border: 1px;
     font-size: 12pt;
     text-align: center;
+}
+footer div{
+    background-color: beige;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto; /*vai mudar de acordo com os elementos*/
+}
+footer div img{
+
 }
