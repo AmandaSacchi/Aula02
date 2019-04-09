@@ -1,8 +1,10 @@
 body{
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 nav{
-    background-color: darkorchid;
+    background-color: turquoise;
     height: 50px;
     display: flex;
     align-items: center;
@@ -11,10 +13,51 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+
+
 }
 nav a:first-child{
     color: black;
-    font-size: 40pt;
-    font-family: 'Montserrat', sans-serif;
     font-style: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+
+}
+section{
+    display: flex;
+    justify-content: center; /* Deixa a caixa de login no centro */
+    margin-top: 15px;
+
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    background-color: turquoise;
+    height: 170px;
+    align-items: center;
+}
+div input:nth-child(4){
+    margin-top: 20px;
+    width: 70%;  
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px; /* arredonda o botão*/
+    box-shadow: 5px 2px 3px black; /* 5 comprimento 2 lagura 3 esmaecer*/
+
+
+}
+div input{
+    margin-bottom: 5px;
+    width: 93%;
+}
+div input:focus{
+    background-color: red;
+}
+div input::placeholder{
+    border: 1px;
+    font-size: 12pt;
+    text-align: center;
 }
