@@ -24,6 +24,7 @@ nav a:first-child{
 }
 nav a:hover{
     text-decoration: underline;
+    
 
 }
 section{
@@ -68,7 +69,10 @@ footer div{
     align-items: center;
     justify-content: space-evenly;
     width: auto; /*vai mudar de acordo com os elementos*/
-}
-footer div img{
 
+}
+header{
+    height: 200px;
+    background-image: url("http://images.unsplash.com/photo-1535332371349-a5d229f49cb5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+    background-size: cover;
 }
